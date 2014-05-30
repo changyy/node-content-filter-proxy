@@ -1,0 +1,26 @@
+{
+	"name":			"content-filter-proxy",
+	"version":		"1.0.0",
+	"repository":
+	{
+		"type":		"git",
+		"url":		"https://github.com/changyy/node-content-filter-proxy"
+	},
+	"description":		"Use proxy structure on content filter",
+	"author": 		"Yuan-Yi Chang",
+	"main":			"index.js",
+	"dependencies":
+	{
+	},
+	"devDependencies":
+	{
+	},
+	"scripts":
+	{
+	},
+	"engines":
+	{
+		"node":		">=0.10.25"
+	},
+	"license":		"MIT"
+}
