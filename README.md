@@ -8,13 +8,17 @@ node-content-filter-proxy
 ## Basic Usage
 
 ```
-$ cd examples && node basic.js &
-$ http_proxy="http://localhost:3128" wget -O- http://www.google.com
+$ cd examples && node basic.js
 ```
-## Extract hyperlink
+## Extract hyperlink: &lt;a href="..."&gt;...&lt;/a&gt;
 
 ```
 $ cd examples && npm install && node extract-hmtl-a-href.js
+```
+
+# Usage
+
+```
 $ http_proxy="http://localhost:3128" wget -qO- http://www.google.com
 <a href="http://www.google.com.sg/imghp?hl=en&tab=wi">Images<a/>
 <a href="http://maps.google.com.sg/maps?hl=en&tab=wl">Maps<a/>
