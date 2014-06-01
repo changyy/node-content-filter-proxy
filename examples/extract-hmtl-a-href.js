@@ -7,12 +7,13 @@ contentFilterProxy.createServer({
 	'handlers': [
 		{
 			'content-type': 'text/html',			// source content-type
-			'handler': function(data){
+			'handler': function(request, response){
 				var output = {
 					'content-type': 'text/html',	// output content-type
 					'content': ''			// output content
 				};
-				$ = cheerio.load(data);
+				console.log('request headers:'+JSON.stringify(request.headers));
+				$ = cheerio.load(response);
 				$('a').each(function(i, link){
 					//console.log($(link).attr('href'));
 					output['content'] += '<a href="'+$(link).attr('href')+'">'+$(link).text()+'<a/>\n';
