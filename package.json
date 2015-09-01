@@ -1,26 +1,35 @@
 {
-	"name":			"content-filter-proxy",
-	"version":		"1.0.0",
-	"repository":
-	{
-		"type":		"git",
-		"url":		"https://github.com/changyy/node-content-filter-proxy"
-	},
-	"description":		"Use proxy structure on content filter",
-	"author": 		"Yuan-Yi Chang",
-	"main":			"index.js",
-	"dependencies":
-	{
-	},
-	"devDependencies":
-	{
-	},
-	"scripts":
-	{
-	},
-	"engines":
-	{
-		"node":		">=0.10.25"
-	},
-	"license":		"MIT"
+  "name": "content-filter-proxy",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/changyy/node-content-filter-proxy"
+  },
+  "description": "Use proxy structure on content filter",
+  "author": "Yuan-Yi Chang",
+  "main": "content-filter-proxy.js",
+  "dependencies": {
+    "cheerio": "*",
+    "http": "*",
+    "request": "*",
+    "url": "*",
+    "net": "*"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/changyy/node-content-filter-proxy/issues"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "keywords": [
+    "url",
+    "content",
+    "filter",
+    "proxy",
+    "http",
+    "server"
+  ]
 }

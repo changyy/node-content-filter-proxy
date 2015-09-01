@@ -1,14 +1,16 @@
 {
-	"name":			"content-filter-proxy-examples",
+	"name":			"content-filter-proxy-example",
 	"version":		"0.0.0",
-	"main":			"index.js",
+	"main":			"extract-hmtl-a-href.js",
 	"dependencies":
 	{
-		"cheerio":	"*"
+		"cheerio":	"*",
+		"request":	"*",
+		"http":		"*"
 	},
 	"engines":
 	{
 		"node":		">=0.10.25"
 	},
-	"license":		"MIT"
+	"license":		"BSD"
 }

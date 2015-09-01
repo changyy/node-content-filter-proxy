@@ -1,4 +1,4 @@
-var contentFilterProxy = require('../lib/content-filter-proxy');
+var contentFilterProxy = require('..');
 var cheerio = require('cheerio');
 
 contentFilterProxy.createServer({

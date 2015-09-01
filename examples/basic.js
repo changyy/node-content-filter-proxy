@@ -1,4 +1,4 @@
-var contentFilterProxy = require('../lib/content-filter-proxy');
+var contentFilterProxy = require(__dirname+'..');
 
 contentFilterProxy.createServer({
 	'port' : 3128
